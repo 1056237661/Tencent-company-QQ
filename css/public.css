@@ -1,0 +1,58 @@
+/*publick style*/
+.center{margin: 0 auto}
+.left{float: left}
+.right{float: right}
+.f_12{font-size: 12px}
+.f_14{font-size: 14px}
+.f_16{font-size: 16px}
+.bold{font-weight: bold}
+a:link{color: #195dbb}
+a:visited{color: #195dbb}
+a:hover{color: #775da9}
+a:active{color: darkblue}
+.clearFloat:after{content: "";display: block;clear: both;width: 0;height: 0;visibility: hidden;overflow: hidden}
+
+/* 阿里巴巴字体库 */
+@font-face {
+  font-family: 'iconfont';  /* project id 211183 */
+  src: url('//at.alicdn.com/t/font_c9x342c8eq5pcik9.eot');
+  src: url('//at.alicdn.com/t/font_c9x342c8eq5pcik9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_c9x342c8eq5pcik9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_c9x342c8eq5pcik9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_c9x342c8eq5pcik9.svg#iconfont') format('svg');
+}
+.iconfontyyy{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale}
+
+/* body style */
+html,body{height: 100%;}
+body{color: black;font-size: 12px;font-family: verdana,arial,helvetica,sans-serif;background: url(../img/bg.gif) repeat-x #d9e2ce;}
+.wrapper{width: 100%;min-height: 100%;height: auto !important;height: 100%;margin: 0 auto -130px;}
+/* header style start */
+header{height: 95px;min-width: 960px;overflow: hidden;background: url(../img/head_bg.jpg) center;}
+.head-text{width: 960px;color: #73cce1;margin: 15px auto 0;text-align: right;font-size: 12px;}
+.turnQq{padding: 6px 4px 6px 12px;background-color: #3b589b}
+.turnQq a{color: #cfeaf7}
+.qqService:before{content:"\e68c";color: #FFF;margin-right: 6px}
+/* 箭头*/
+.arrows{width: 0;height: 0;display: inline-block;vertical-align: top;border-left: 10px solid #3b589b;border-top: 13px solid transparent;border-bottom: 14px solid transparent;position: relative;bottom: 6.5px;}
+
+/* big-box start*/
+.big-box{width: 960px;min-width: 960px;background-color: #FFF; background: linear-gradient(to bottom,#f7f7f7,#FFF);}
+
+/* nav start*/
+nav{width: 960px;height: 43px;background: url(../img/nav_bg.png) no-repeat;}
+nav ul li{height: 43px;line-height: 43px;padding: 0 16px;display: inline-block;vertical-align: top;}
+nav ul li a{color: #FFF;font-size: 14px;padding: 14px;}
+nav ul li a:link,nav ul li a:visited,nav ul li a:hover,nav ul li a:active{color: #FFF;}
+.active ,.top-nav ul li:hover{background: url(../img/nav_hover.png) no-repeat top center;}
+
+/* footer start */
+.foot-push{height: 130px;}
+.foot-box{width: 960px;height:100px;color: #8080a4;text-align: center;padding-top: 30px; background: url(../img/foot-bg.png) repeat-x;}
+.foot-box p{line-height: 23px;}
+.foot-box p a{cursor: pointer;color: #8080a4;}

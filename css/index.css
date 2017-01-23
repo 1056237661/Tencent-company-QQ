@@ -1,0 +1,72 @@
+/* 轮播图 */
+.carousel{width:960px;height:284px}
+.carousel img{width:960px;height:284px}
+
+/* 为什么使用企业QQ*/
+.middle2{background-color:#eef6ff}
+.middle2-header{height:48px;background:url(../img/2.png) no-repeat;position:relative;right:10px}
+ul.why-use{overflow:hidden}ul.why-use li{float:left;width:305px;margin:25px 2px 41px}
+ul.why-use li figure{float:left;width:72px;text-align:center}
+ul.why-use li span{float:left;width:230px}
+ul.why-use li span p{color:#262626;padding:11px 0;line-height:23px}
+
+/* 左右分列外框 */
+.middle3{overflow:hidden;background:#FFF}
+
+/* 左侧内容部分*/
+.middle3-left{width:670px;padding:20px;overflow:hidden}
+
+/* 主要功能 */
+.main-function>h3{padding:21px 0}
+.function-list ul li{margin-bottom:38px}
+.function-img img{width:52px;margin-right:14px}
+.leftSpan{width:256px}
+.rightSpan{width:263px}
+.function-list ul li span p{color:#262626;padding:11px 0;line-height:23px}
+
+/* 市场活动 */
+.market-activi{margin-bottom:34px}
+.market-activi-title{margin-bottom:27px}
+.market-activi-title span:first-child{padding-right:6px}
+.hr{width:555px;display:inline-block;border-bottom:1px solid #dedede;position:relative;bottom:3px}
+.hrF{color:#dedede}
+.more a{line-height:23px}
+.activity{float:left;width:208px;font-size:12px;margin-right:23px}
+.active-list div:nth-child(3n){margin-right:0}
+.activity img{width:208px}
+.activity h3{color:#1a5d96;margin:18px 0 17px}
+.activeTime{color:#c00000;margin-bottom:4px}
+.activeCont{color:#222;line-height:23px}
+
+/* 成功案例 */
+.successful-case{overflow:hidden;margin-bottom:25px}
+.sisco{width:100%;text-align:center;padding-bottom:26px}
+.sisco img{width:100%}
+
+/* 我们的客户 */
+.our-customer{margin-bottom:25px}
+.ourHr{width:584px;display:inline-block;border-bottom:1px solid #dedede;position:relative;bottom:3px}
+.customer-img-list ul li{float:left;width:160px;margin-right:10px;margin-bottom:8px;overflow:hidden}
+.customer-img-list ul li:nth-child(4n){margin-right:0}
+.customer-img-list ul li img{width:160px}
+
+
+/* 右侧广告列表*/
+.middle3-right{width:250px}
+
+/* middle3-right-box1 */
+.middle3-right-box1{background-color:#f7fafd}
+.qqTalk,.toCompany{display:block}
+.qqTalk img{width:230PX;margin:10PX}
+.toCompany img{width:200px;margin:25px 25px 0}
+.notice-box{margin-left:22px}
+.notice-box-title{color:#222;font-size:16px;margin:38px 0}
+.notice-list li{width:208px;color:#195dbb;margin:14px 0}
+
+/* middle3-right-box2 */
+.middle3-right-box2{background:linear-gradient(to bottom,#f7fafd,#FFF)}
+.middle3-right-box2 a img{width:230px;margin:2px 10px}
+.media-report{margin-left:22px}
+.media-title{margin:23px 0}
+ul.media-list li{width:208px}
+ul.media-list li a{line-height:23px}

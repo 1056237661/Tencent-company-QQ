@@ -1,0 +1,130 @@
+/* 等高布局 */
+.content-box{overflow: hidden;}
+.left-box,.right-box{float: left;padding-bottom: 2000px;margin-bottom: -2000px;}
+.left-box{float: left;background:linear-gradient(right top,#FFF,#F4F4F4)
+}
+.right-box{float: right;background: #FFF;}
+
+/* left */
+.content-left{
+	width: 213px;
+	padding: 13px 0 0 43px ;
+	/*background: url(../img/product/left-bg.png) repeat-y;*/
+}
+.content-left ul li{
+	font-size: 12px;
+	line-height: 36px;
+}
+li.pro-selected a{
+	color: #0089fe;
+}
+
+.pro-selected a:after{
+	content: url(../img/selected.png);
+	margin-left: 6px;
+}
+
+
+/* right */
+.content-right{
+	width: 654px;
+	padding: 25px ;
+	background: #FFF;
+}
+.summarize{
+	padding: 10px 8px;
+	margin-bottom: 25px;
+	background-color: #f2f7fc;
+}
+.titleP{
+	color: #222;
+	margin:25px 0;	
+}
+.dealer{
+	width: 100%;
+	margin-bottom: 29px;
+	border-collapse: collapse;
+}
+
+.dealer thead tr th{
+	color: #3d78a5;
+	padding: 9px 0;
+	background-color: #daebf7;
+	border: 1px solid white;
+}
+.dealer tbody tr td{
+	color: #222;
+	height: 43px;
+	line-height: 43px;
+	text-align: center;
+	background-color: #f1f7fc;
+	border: 1px solid white;
+	position: relative;
+}
+.qqTalk{
+	vertical-align: middle;
+}
+
+/* 经销商详情显示 */
+.dealerName{
+	cursor: pointer;
+}
+.intro{
+	color: #3d78a5;
+	display: none;
+	position: absolute;
+	padding: 2px 3px;
+	background-color: #DAEBF7;
+	border: 1px solid #FFF;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.intro-box{
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+}
+.intro-model{
+	width: 620px;
+	height: 250px;
+	padding: 6px;
+	background-color: #F1F7FC;
+	border:2px solid #DAEBF7;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -310px;
+	margin-top: -125px;
+	overflow: hidden;
+}
+.intro-model h3 , .intro-model h4{
+	font-size: 12px;
+	margin: 12px 0;
+}
+.intro-model p{
+	text-indent: 2em;
+}
+.close{
+	color: white;
+	font-size: 27px;
+	text-align: center;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 33px;
+	height: 33px;
+	border: 1px solId grey;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+/* 备注信息 */
+.remarkP{
+	color: #222;
+	margin:13px 0;
+}
